@@ -1,7 +1,7 @@
 import axios from "axios";
 
 const API = axios.create({
-  baseURL: "http://localhost:5000/api/caregivers",
+  baseURL: "https://elderly-nursing.onrender.com/api/caregivers",
 });
 
 API.interceptors.request.use((config) => {
